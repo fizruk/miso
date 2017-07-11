@@ -90,3 +90,24 @@ viewModel x = div_ [] [
  , button_ [ onClick SubtractOne ] [ text "-" ]
  ]
  ```
+
+## Building examples
+
+To build examples you need to pass `examples` flag to Cabal:
+
+```
+stack build --flag miso:examples
+```
+
+This will build all examples. You can find built examples here:
+
+
+```
+$(stack path --dist-dir)/build
+```
+
+For instance, you can open `mario` example like this:
+
+```
+open $(stack path --dist-dir)/build/mario/mario.jsexe/index.html
+```
