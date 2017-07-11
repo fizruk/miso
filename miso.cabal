@@ -18,12 +18,22 @@ extra-source-files:
   README.md
   examples/todo-mvc/index.html
   examples/websocket/index.html
-  examples/mario/imgs/jump/right.gif
-  examples/mario/imgs/jump/left.gif
-  examples/mario/imgs/stand/right.gif
-  examples/mario/imgs/stand/left.gif
-  examples/mario/imgs/walk/right.gif
-  examples/mario/imgs/walk/left.gif
+  examples/mario/imgs/Jump/R.gif
+  examples/mario/imgs/Jump/L.gif
+  examples/mario/imgs/Stand/R.gif
+  examples/mario/imgs/Stand/L.gif
+  examples/mario/imgs/Walk/R.gif
+  examples/mario/imgs/Walk/L.gif
+
+data-files:
+  examples/todo-mvc/index.html
+  examples/websocket/index.html
+  examples/mario/imgs/Jump/R.gif
+  examples/mario/imgs/Jump/L.gif
+  examples/mario/imgs/Stand/R.gif
+  examples/mario/imgs/Stand/L.gif
+  examples/mario/imgs/Walk/R.gif
+  examples/mario/imgs/Walk/L.gif
 
 flag examples
   default:
